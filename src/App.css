@@ -133,3 +133,20 @@ button:disabled {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .quiz-box {
+    width: 94.5%;
+  }
+  .question-container {
+    padding: 5px;
+  }
+  .question-container p {
+    font-size: 16px;
+  }
+  .progress-bar,
+  .progress-bar-top {
+    height: 10px;
+    width: 100%;
+  }
+}
